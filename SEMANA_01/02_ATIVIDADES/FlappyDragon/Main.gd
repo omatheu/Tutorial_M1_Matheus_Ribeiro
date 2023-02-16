@@ -1,8 +1,8 @@
 extends Node # instancia a classe Node2D
-
+	
 var status = 1 #qualquer status diferente de 1 ou de 0, o dragão não se movimenta (fica parado), sem jogar
 var vscore = 0 #refere-se ao score do jogador e recebe uma adição de valor a cada arvere que passa
-var x = 20 #altera a velocidade do Dragão na vertical
+var x = 1.5 #altera a velocidade do Dragão na vertical
 var y = 1.5 #altera a velocidade do dragão na horizontal
 
 # executa essa função ao carregar o jogo

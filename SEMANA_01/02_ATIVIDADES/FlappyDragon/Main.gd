@@ -1,9 +1,9 @@
 extends Node # instancia a classe Node2D
 	
 var status = 1 #qualquer status diferente de 1 ou de 0, o dragão não se movimenta (fica parado), sem jogar
-var vscore = 0 #refere-se ao score do jogador e recebe uma adição de valor a cada arvere que passa
-var x = 0.5 #altera a velocidade do Dragão na vertical
-var y = 0.5 #altera a velocidade do dragão na horizontal
+var vscore = 0 #refere-se ao score do jogador e recebe uma adição de valor a cada arvore que passa
+var x = 0.5 #altera a velocidade do Dragão na horizontal
+var y = 0.5 #altera a velocidade do dragão na vertical
 
 # executa essa função ao carregar o jogo
 func _ready():
@@ -12,7 +12,7 @@ func _ready():
 
 
 # executa essa função a cada frame (60 FPS)
-func _process(delta):
+func _process(_delta):
 	
 	if status == 1: # jogando
 		
